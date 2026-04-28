@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionaria AutoMax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+    
+
+        .carousel-custom {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .carousel-custom img {
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Responsive */
+
+        @media (max-width: 600px) {
+
+            .carousel-custom {
+                max-width: 95%;
+            }
+
+            .carousel-custom img {
+                height: 250px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <h1 class="logo">
+                <img src="img/chevrolet.png" alt="Logo Chevrolet">
+                ChevroSur
+            </h1>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="vehiculos.html">Vehículos</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="index.html#contactoo">contactoo</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container my-5">
+            <h2 class="text-center mb-4">
+                Modelos Chevrolet
+            </h2>
+            <div id="carouselExampleIndicators"
+                class="carousel slide carousel-custom"
+                data-bs-ride="carousel">
+
+
+                <div class="carousel-indicators">
+
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"></button>
+
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"></button>
+
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"></button>
+
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="https://placehold.co/800x500"
+                            class="d-block w-100"
+                            alt="Tracker">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/800x500"
+                            class="d-block w-100"
+                            alt="Onix">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/800x500"
+                            class="d-block w-100"
+                            alt="Cruze">
+                    </div>
+
+                </div>
+
+
+                <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+                <h3>ChevroSur</h3>
+                <p>
+                    Concesionaria oficial Chevrolet.
+                    Más de 20 años brindando confianza.
+                </p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Enlaces</h3>
+
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="vehiculos.html">Vehículos</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="index.html#contactoo">contactoo</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>contactoo</h3>
+
+                <p>Av. Hipólito Yrigoyen 1234</p>
+                <p>📞 +54 11 4567-8900</p>
+                <p>✉️ ventas@chevrosur.com</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Seguinos</h3>
+
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 ChevroSur | Todos los derechos reservados
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
