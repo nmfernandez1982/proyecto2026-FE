@@ -22,6 +22,7 @@
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#vehiculos">Vehículos</a></li>
+                    <li><a href="#productos">Productos</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#nosotros">Nosotros</a></li>
                     <li><a href="#contactoo">contactoo</a></li>
@@ -88,6 +89,45 @@
                 <a href="#">Conocé más →</a>
             </div>
         </div>
+    </div>
+</section>
+
+
+<!-- SECCIÓN PRODUCTOS + CARRITO -->
+<section class="productos-section" id="productos">
+    <h2 class="section-title">Accesorios para tu auto</h2>
+
+    <div class="tienda-container">
+
+        <!-- Lista de productos disponibles -->
+        <div class="productos-lista">
+            <h3>Productos disponibles</h3>
+            <ul id="lista-productos">
+                <!-- Los productos se cargan desde JavaScript -->
+            </ul>
+        </div>
+
+        <!-- Carrito -->
+        <aside class="carrito-box">
+            <h3>🛒 Tu carrito (<span id="cantidad-carrito">0</span>)</h3>
+
+            <ul id="items-carrito">
+                <!-- Los items del carrito se cargan desde JavaScript -->
+            </ul>
+
+            <div class="carrito-total">
+                <span>Total:</span>
+                <strong id="total-carrito">$0</strong>
+            </div>
+
+            <div class="carrito-acciones">
+                <button id="btn-vaciar" class="btn-secundario">Vaciar</button>
+                <button id="btn-pagar" class="btn">Pagar</button>
+            </div>
+
+            <p class="carrito-nota">* El pago es una demostración, no se procesa ningún cobro real.</p>
+        </aside>
+
     </div>
 </section>
 
@@ -193,6 +233,7 @@
             <ul>
                 <li><a href="#hero">Inicio</a></li>
                 <li><a href="vehiculos.html">Vehículos</a></li>
+                <li><a href="#productos">Productos</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#resenias-section">Reseñas</a></li>
                 <li><a href="#contactoo">contactoo</a></li>
@@ -229,6 +270,9 @@
 
 </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/carrito.js"></script>
 
 </body>
 </html>
